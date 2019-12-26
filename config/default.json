@@ -1,0 +1,5 @@
+{
+	"port": 5000,
+	"mongoURI": "mongodb+srv://george:dxfg034of@cluster0-ea9fy.azure.mongodb.net/app?retryWrites=true&w=majority",
+	"jwtSecret": "geoga"
+}

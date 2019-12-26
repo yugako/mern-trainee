@@ -1,0 +1,39 @@
+{
+  "name": "mern-trainee",
+  "version": "1.0.0",
+  "description": "Trainee MERN App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yugako/mern-trainee.git"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "node"
+  ],
+  "author": "George Gasyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yugako/mern-trainee/issues"
+  },
+  "homepage": "https://github.com/yugako/mern-trainee#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  }
+}
